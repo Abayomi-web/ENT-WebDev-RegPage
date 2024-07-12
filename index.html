@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Entrepreneurship for web application developer | Register</title>
+    <link rel="shortcut icon" href="./img/favicon.png">
+    <link rel="stylesheet" href="./css/style.css">
+</head>
+<body>
+    <h1>Entrepreneurship for web application developer</h1>
+    <div>
+        <h2>Register</h2>
+        <form autocomplete="on">
+            <label for="fname">First Name :</label>
+            <input type="text" name="fname" id="fname" placeholder="Enter Your First Name..." required><br>
+            <label for="lname">Last Name :</label>
+            <input type="text" name="lname" id="lname" placeholder="Enter Your Last Name..." required><br>
+            <label for="email">Email Address :</label>
+            <input type="email" name="email" id="email" placeholder="Enter Your Email Address..."><br>
+            <label for="phone">Phone Number :</label>
+            <input type="tel" name="phone" id="phone" pattern="[0-9]{4}[0-9]{3}[0-9]{4}" placeholder="09145748262" required><br>
+            <label for="date">Date Of Birth :</label>
+            <input type="date" name="date" id="date" required><br>
+            <button type="submit" onclick="alert('You have successfully registered!')">Submit</button>
+        </form>
+    </div>
+</body>
+</html>
